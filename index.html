@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
+        <title>Bootstrap UI</title>
+    </head>
+
+    <body>
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid fs-2">
+                <a class="navbar-brand fs-1" href="#">Complex UI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Section 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Section 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Section 3</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 fs-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success fs-3" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Craousal -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZSUyMGJhY2tncm91bmQlMjBoZHxlbnwwfHwwfHx8MA%3D%3D"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG5hdHVyZSUyMGJhY2tncm91bmQlMjBoZHxlbnwwfHwwfHx8MA%3D%3D"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- image and description -->
+        <div class="container-image fs-3 text-center">
+            <div class="container-image-1">
+                <img src="https://media.istockphoto.com/id/1356716161/photo/this-is-sweet-custard-apple-on-plant-sweet-custard-apple-plant-and-custard-on-tree-side-view.webp?b=1&s=170667a&w=0&k=20&c=fFb6rdU83OMDrXj1OsZm1PmI7l0V6N8hzUjZHlAnANE="
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Esse, molestias.</p>
+            </div>
+            <div class="container-image-2">
+                <img src="https://media.istockphoto.com/id/1392928015/photo/sunset.webp?b=1&s=170667a&w=0&k=20&c=RWWGaXg28NmRcL3ek2oCWagqgJ3PECok5D0hqg5gHdY="
+                    alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Sunt, ratione.</p>
+            </div>
+            <div class="container-image-3">
+                <img src="https://media.istockphoto.com/id/1414912230/photo/luxury-speed-boat-floating-in-open-sea-at-summer-yacht-sailing-in-sea-at-hot-summer-day.webp?b=1&s=170667a&w=0&k=20&c=YQVU6lJnJXhMrCuJyX61nIvygJ140xaihclFGM8CL3M="
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Saepe, aliquam!</p>
+            </div>
+        </div>
+        <!-- grid image section  -->
+        <div class="container-grid">
+            <div class="grid" id="box1">
+                <img src="https://images.unsplash.com/photo-1677579016602-d342f911d11c?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTMxOTA0MHx8ZW58MHx8fHx8"
+                    alt="">
+            </div>
+            <div class="grid" id="box2">
+                <img src="https://images.unsplash.com/photo-1546110835-accb2372b4f1?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTA1NTQxNDZ8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <div class="grid" id="box3">
+                <img src="https://images.unsplash.com/photo-1713791234907-0daa87dfd658?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8ODY0MzQ0MHx8ZW58MHx8fHx8"
+                    alt="">
+            </div>
+            <div class="grid" id="box4">
+                <img src="https://images.unsplash.com/photo-1714572877812-7b416fbd4314?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NTgzMjA0fHxlbnwwfHx8fHw%3D"
+                    alt="">
+            </div>
+            <div class="grid" id="box5">
+                <img src="https://images.unsplash.com/photo-1533094692971-5f4c56ec1339?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8ODgwMDEyfHxlbnwwfHx8fHw%3D"
+                    alt="">
+            </div>
+            <div class="grid" id="box6">
+                <img src="https://images.unsplash.com/photo-1422651355218-53453822ebb8?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8V1YzblUwTVhVTXd8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+
+            <div class="grid" id="box7">
+                <img src="https://images.unsplash.com/photo-1527645746751-d4dc7aa53163?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTIwOTQxMzR8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <div class="grid" id="box8">
+                <img src="https://images.unsplash.com/photo-1702452649745-1d4cdec32bab?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OTI3NTEwNHx8ZW58MHx8fHx8"
+                    alt="">
+            </div>
+            <div class="grid" id="box9">
+                <img src="https://images.unsplash.com/photo-1501272353655-73a287cd52f7?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NDg3ODE3N3x8ZW58MHx8fHx8"
+                    alt="">
+            </div>
+        </div>
+        <!-- card section  -->
+        <div class="card-section">
+            <div class="card" style="width: 30rem;">
+                <img src="https://media.istockphoto.com/id/1214716068/photo/sunset-amidst-sprawling-skyscrapers-of-mumbai.webp?b=1&s=170667a&w=0&k=20&c=hIgO_wWvzvht-aN2khjjhgHDMBocRsTzxrzlw_5jMyw="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 30rem;">
+                <img src="https://media.istockphoto.com/id/474275680/photo/city-life-downtown-toronto-vibrant-cityscape-skyline.webp?b=1&s=170667a&w=0&k=20&c=hlZkPyAWWDfnOWCIcdNK2v6EGGVNWrNNEb6gfjGX-ag="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 30rem;">
+                <img src="https://media.istockphoto.com/id/1472468447/photo/mumbai-cityscape-at-night-maharashtra-india.webp?b=1&s=170667a&w=0&k=20&c=wV_VQAdwO4xs25BGKg8bokyp0XIpEGLUMLmhk_3e93c="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <!-- footer  -->
+        <footer>
+            <div class="container-footer">
+                <div class="section-1 footer">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li><a href="">Link 1</a></li>
+                        <li><a href="">Link 2</a></li>
+                        <li><a href="">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="section-2 footer">
+                    <h3>More links</h3>
+                    <ul>
+                        <li><a href="">Link 4</a></li>
+                        <li><a href="">Link 5</a></li>
+                        <li><a href="">Link 6</a></li>
+                    </ul>
+                </div>
+                <div class="section-3 footer">
+                    <h3>Contact Us</h3>
+                    <P>Email:email@gmail.com</P>
+                    <p>phone: (+1) 555 123-4567</p>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2023 Complex UI. All Rights Reserved.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
